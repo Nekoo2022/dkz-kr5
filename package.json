@@ -1,0 +1,18 @@
+{
+  "name": "kr5-graphql-rabbitmq",
+  "version": "1.0.0",
+  "description": "GraphQL API (Apollo Server) и очередь RabbitMQ: книги и авторы",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "consumer": "node src/consumer.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.12.2",
+    "amqplib": "^0.10.9",
+    "graphql": "^16.11.0"
+  }
+}
